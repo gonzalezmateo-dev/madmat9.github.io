@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: white;
+}
+
+.mainBox{
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 700px;
+    height: 460px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 6px;
+    background-color:transparent;
+}
+
+.image{
+    border-style: solid;
+    border-color: rgb(46, 67, 75);
+    border-radius: 50%;
+}
+
+.mainPhoto{
+    float: left;
+    background-color:transparent;
+    margin-left: 94.5px;
+    margin-right: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.nameBox{
+    float: left;
+    
+    margin-left: 30px;
+    margin-right: 0px;
+    width: 331px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(46, 67, 75);
+    background-color:rgb(229, 228, 240);
+}
+
+.nombre{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color:transparent;
+    font-size: medium;
+    font-style: serif;
+    background-color: rgb(46, 67, 75);
+    color: white;
+}
+
+.snBox{
+    box-shadow: initial;
+    float: left;
+    width: 511px;
+    height: 80px;
+    margin-left: 94.5px;
+    margin-top: 30px;
+    background-color:rgb(46, 67, 75);
+    border-radius: 6px;
+    border: 2px solid rgb(46, 67, 75);
+}
+
+.titulo{
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.descripcion{
+    padding-left: 10px;
+    font-size: small;
+    font-style: serif;
+}
+
+
+.socialNetwork1{
+    float: left;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 8px;
+    
+    padding-left: 134px;
+    padding-right: 134px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 0;
+    font-size: 25px;
+    color: black;
+    background-color: rgb(229, 228, 240);
+    border-radius: 6px;
+    border: 2px solid rgb(46, 67, 75);
+}
+
+.socialNetwork1:hover{
+    color: black;
+    border-color: rgb(46, 67, 75);
+    background-color: rgb(200, 198, 218);
+}
+
+.socialNetwork2{
+    float: left;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 8px;
+    
+    padding-left: 154px;
+    padding-right: 154px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 0;
+    font-size: 25px;
+    color: black;
+    background-color: rgb(229, 228, 240);
+    border-radius: 6px;
+    border: 2px solid rgb(46, 67, 75);
+}
+
+.socialNetwork2:hover{
+    color: black;
+    background-color: rgb(200, 198, 218);
+    border-color: rgb(46, 67, 75);
+}
+
