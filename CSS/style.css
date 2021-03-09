@@ -6,12 +6,13 @@
 body{
    background-color: white;
    box-sizing: border-box;
+   font-style: serif;
 }
 
 .mainBox{
     margin: auto;
     padding-top: 10px;
-    width: 30%;    
+    width: 350px;    
     border-width: 2px;
     background-color:transparent;
 }
@@ -27,23 +28,24 @@ body{
 .mainPhoto{
     float: left;
     width: 100%;
-    
+    padding-bottom: 5px;
 }
 
 .nameBox{
     float: left;
     width: 100%;
+    margin-bottom: 5px;
     background-color:rgb(229, 228, 240);
 }
 
 .nombre{
+    float: left;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
-    background-color:transparent;
     font-size: medium;
-    font-style: serif;
     background-color: rgb(46, 67, 75);
     color: white;
 }
@@ -51,6 +53,7 @@ body{
 .snBox{
     float: left;
     width: 100%; 
+    margin-bottom: 5px;
     text-align: center;
     background-color:rgb(46, 67, 75);   
 }
@@ -58,8 +61,9 @@ body{
 .titulo{
     float: left;
     width: 100%;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
     color: white;
 }
 
@@ -69,7 +73,6 @@ body{
     padding-bottom: 10px;
     padding-right: 10px;
     font-size: small;
-    font-style: serif;
 }
 
 .socialNetwork1{
