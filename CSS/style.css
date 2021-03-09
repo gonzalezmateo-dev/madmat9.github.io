@@ -11,12 +11,14 @@ body{
 .mainBox{
     margin: auto;
     padding-top: 10px;
-    width: 400px;    
+    width: 30%;    
     border-width: 2px;
     background-color:transparent;
 }
 
 .image{
+    display: block;
+    margin: auto;
     border-style: solid;
     border-color: rgb(46, 67, 75);
     border-radius: 50%;
@@ -24,9 +26,7 @@ body{
 
 .mainPhoto{
     float: left;
-    margin-left: 31.25%;
-    background-color:transparent;
-    width: 150px;
+    width: 100%;
     
 }
 
