@@ -6,7 +6,9 @@
 body{
    background-color: white;
    box-sizing: border-box;
-   font-style: serif;
+   font-family: 'Shippori Mincho B1', serif;
+   background-color: black;
+   background-image: url(https://pa1.narvii.com/6705/507dc25f063cecb689cb172caf0b235d107932d2_hq.gif);
 }
 
 .mainBox{
@@ -20,7 +22,7 @@ body{
     display: block;
     margin: auto;
     border-style: solid;
-    border-color: rgb(46, 67, 75);
+    border-color: black;
     border-radius: 50%;
 }
 
@@ -28,13 +30,16 @@ body{
     float: left;
     width: 100%;
     padding-bottom: 5px;
+    background-image: url('../gifs/enLlamas.gif');
+    
 }
 
 .nameBox{
     float: left;
     width: 100%;
-    margin-bottom: 5px;
-    background-color:rgb(229, 228, 240);
+    background-image: url('../gifs/relampagos.gif');
+    background-repeat: no-repeat;
+    
 }
 
 .nombre{
@@ -44,16 +49,19 @@ body{
     padding-bottom: 10px;
     margin-bottom: 5px;
     text-align: center;
-    background-color: rgb(46, 67, 75);
-    color: white;
+    background-image: url('../gifs/chispas.gif');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    color: rgb(238, 212, 67);
 }
 
 .snBox{
     float: left;
     width: 100%; 
-    margin-bottom: 5px;
+    margin-top: 5px;
     text-align: center;
-    background-color:rgb(46, 67, 75);   
+    background-image: url('../gifs/chispas.gif');
+    background-repeat: no-repeat;  
 }
 
 .titulo{
@@ -61,14 +69,16 @@ body{
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color: rgb(236, 235, 160);
 }
 
 .descripcion{
+    color: blanchedalmond;
+    text-align: center;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 3.33%;
     padding-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 3.33%;
 }
 
 .socialNetwork{
@@ -92,6 +102,9 @@ body{
     .mainBox{
         width: 450px;
     }
+    .mainPhoto{
+        background-size: 450px 161px;
+    }
     .descripcion{
         font-size: small;
     }
@@ -109,6 +122,9 @@ body{
 @media only screen and (max-width: 767px){
     .mainBox{
         width: 300px;
+    }
+    .mainPhoto{
+        background-size: 300px 161px;
     }
     .descripcion{
         font-size:medium;
