@@ -104,7 +104,7 @@ body{
         width: 450px;
     }
     .mainPhoto{
-        background-size: 450px 161px;
+        background-size: 450px 166px;
     }
     .descripcion{
         font-size: small;
@@ -125,7 +125,7 @@ body{
         width: 300px;
     }
     .mainPhoto{
-        background-size: 300px 161px;
+        background-size: 300px 166px;
     }
     .descripcion{
         font-size:medium;
