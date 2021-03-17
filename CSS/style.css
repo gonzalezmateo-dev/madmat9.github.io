@@ -4,18 +4,19 @@
 }
 
 body{
-   background-color: white;
-   box-sizing: border-box;
-   font-family: 'Shippori Mincho B1', serif;
    background-color: black;
-   background-image: url(https://pa1.narvii.com/6705/507dc25f063cecb689cb172caf0b235d107932d2_hq.gif);
+   
+   font-family: 'Shippori Mincho B1', serif;
+   
+   background-image: url("../gifs/lluvia.gif");
 }
 
 .mainBox{
     margin: auto;
     padding-top: 10px;     
-    border-width: 2px;
+   
     background-color:transparent;
+    border: none;
 }
 
 .image{
@@ -29,10 +30,9 @@ body{
 .mainPhoto{
     float: left;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-image: url('../gifs/enLlamas.gif');
-    
 }
 
 .nameBox{
@@ -45,10 +45,11 @@ body{
 
 .nombre{
     float: left;
+    display: block;
+    position: relative;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 5px;
     text-align: center;
     background-image: url('../gifs/chispas.gif');
     background-repeat: no-repeat;
@@ -99,7 +100,11 @@ body{
     background-color: rgb(200, 198, 218);
 }
 
+
 @media only screen and (min-width: 768px) {
+    .image{
+        width: 25%;
+    }
     .mainBox{
         width: 450px;
     }
@@ -121,6 +126,9 @@ body{
 }
 
 @media only screen and (max-width: 767px){
+    .image{
+        width: 35%;
+    }
     .mainBox{
         width: 300px;
     }
